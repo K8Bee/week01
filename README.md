@@ -1,2 +1,3 @@
 # week01
-Assignments, Demos, Workshops
+
+Demo practices & Workshops
