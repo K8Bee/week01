@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+/* we add flex to the section because it is the parent container*/
+/* with flex-direction we decide what the main direciton will be, row (will go side to side in order) or column (will go up down)*/
+.main-section {
+  display: flex;
+  /* the default flex direction is row */
+  flex-direction: column;
+  /* justify-conten will change the elements in whatever direction our flex is, the main axis */
+  /* centre will move all items in either a horizontal or vertical centre */
+  /* space-between will add space between the children but not either end of them (not beginning or end) */
+  /* justify-content applies styles and works the same way as flex-direction */
+  /* align-items works in the opposite direction to justify-content */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 20px;
+}
+
+/* there's another property, flex-wrap, which moves things down if you shrink a screen, so everything doesn't compress to nothing, and you can still see/ read everything enough */
