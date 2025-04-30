@@ -1,0 +1,71 @@
+/* css means cascading stylesheet */
+body {
+  /* everything within body will apply first and everywhere, then anything in other parts will be added on top */
+  /* in this case, the aquamarine color is applied because it comes later in the rules that change the body tag. Background color isn't inherited (like passing down genes)*/
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(156, 156, 154);
+  background-color: navy;
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.h2 {
+  color: pink;
+  font-size: 32px;
+  padding: 20px;
+  position: absolute;
+}
+
+h3 {
+  color: whitesmoke;
+}
+main {
+  background-color: darkgreen;
+}
+
+footer {
+  background-color: blue;
+}
+
+/* if we select an element using the tag, all elements with the same tag will get the same style applied */
+button {
+  background-color: blanchedalmond;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box {
+  background: #eee;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.second-box {
+  background: #eee;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  background: #eee;
+  height: 300px;
+  width: 300px;
+}
